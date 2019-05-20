@@ -9,6 +9,8 @@ RUN gem install bundler
 RUN gem install capybara
 RUN gem install selenium-webdriver
 RUN gem install rspec
+RUN gem install cucumber
 
 RUN gem install pry
+RUN gem install pry-nav
 RUN gem install rb-readline
